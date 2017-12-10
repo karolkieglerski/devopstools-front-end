@@ -1,0 +1,13 @@
+language: javascript
+
+node:
+  - "8.9.3"
+
+install:
+  - npm install
+
+before_script:
+  - echo ok
+
+script:
+  - exit 0
